@@ -31,10 +31,10 @@ const Home = () => {
                     src="https://www.junaidjamshed.com/media/wysiwyg/wedding.jpg"
                   />
                 </Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
+                <Card.Footer className="d-flex justify-content-center">
+                  <Button variant="primary">Shop Now</Button>
+                
+                </Card.Footer>
               </Card.Body>
             </Card>
           </Link>
@@ -54,10 +54,10 @@ const Home = () => {
                     src="https://www.junaidjamshed.com/media/wysiwyg/eid-un1.jpg"
                   />
                 </Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
+                <Card.Footer className="d-flex  justify-content-center">
+                  <Button variant="primary">Shop Now</Button>
+                
+                </Card.Footer>
               </Card.Body>
             </Card>
           </Link>
@@ -74,10 +74,10 @@ const Home = () => {
                 <Card.Title>
                   <Card.Img variant="top" src={laptopImg} />
                 </Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
+                <Card.Footer className="d-flex justify-content-center">
+                  <Button variant="primary">Shop Now</Button>
+                
+                </Card.Footer>
               </Card.Body>
             </Card>
           </Link>
@@ -96,10 +96,10 @@ const Home = () => {
                 <Card.Title>
                   <Card.Img variant="top" src={mobileImg} />
                 </Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
+                <Card.Footer className="d-flex  justify-content-center">
+                  <Button variant="primary  justify-content-center">Shop Now</Button>
+                
+                </Card.Footer>
               </Card.Body>
             </Card>
           </Link>
@@ -120,10 +120,10 @@ const Home = () => {
                     src={vapeImg}
                   />
                 </Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
+                <Card.Footer className="d-flex justify-content-center">
+                  <Button variant="primary">Shop Now</Button>
+                
+                </Card.Footer>
               </Card.Body>
             </Card>
           </Link>
@@ -140,7 +140,7 @@ const Home = () => {
                 <Card.Title>
                   <Card.Img variant="top" src={accessories} />
                 </Card.Title>
-                <Card.Footer className="d-flex">
+                <Card.Footer className="d-flex justify-content-center">
                   <Button variant="primary">Shop Now</Button>
                 
                 </Card.Footer>
