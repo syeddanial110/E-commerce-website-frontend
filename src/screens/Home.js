@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Card, Col, Row,Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
@@ -8,8 +8,20 @@ import vapeImg from "../assets/images/vapeimg.jpg";
 import laptopImg from "../assets/images/laptop.jpg";
 import mobileImg from "../assets/images/mobile.jpg";
 import accessories from "../assets/images/accessories.jpg";
+import axios from "axios";
+import CardsCategories from "../components/CardsCategories"
 // import Slider from '../components/Slider'
 const Home = () => {
+
+  
+  // useEffect( async() => {
+  //   try {
+  //     const data= await axios.post("https://www.googleapis.com/youtube/v3/playlists/q=playlistId=PLw-VjHDlEOgtCjYJB1r1EkZ-AKlYv6Ozj")
+  //     console.log(data);
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // }, [])
   return (
     <div>
       <Header />
@@ -141,7 +153,7 @@ const Home = () => {
                   <Card.Img variant="top" src={accessories} />
                 </Card.Title>
                 <Card.Footer className="d-flex justify-content-center">
-                  <Button variant="primary">Shop Now</Button>
+                  <Button variant="light">Shop Now</Button>
                 
                 </Card.Footer>
               </Card.Body>
@@ -149,6 +161,7 @@ const Home = () => {
           </Link>
         </Col>
       </Row>
+      <CardsCategories />
     </div>
   );
 };
